@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'segoe UI' sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: nome;
+}
+
+.usuarios-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.usuarios-form form input {
+    font-family: 'segoe UI' sans-serif;
+}
+
+.usuarios-form form input[type=text],
+.usuarios-form form input[type=password],
+.usuarios-form form input[type=email]{
+    padding: 8px;
+    border: 2px solid beige;
+    border-radius: 4px;
+    outline: none;
+    transition: .3s;
+}
+
+.usuarios-form form input[type=text]:focus,
+.usuarios-form form input[type=password]:focus,
+.usuarios-form form input[type=password]:focus{
+    border-color: aqua;
+    box-shadow: 0 0 6px 0 aqua;
+}
+
+.usuarios-form form input[type=submit]{
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid antiquewhite;
+}
+
+.usuarios-form form input[type=submit]:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.usuarios-table table{
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
